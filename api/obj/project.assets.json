@@ -4560,11 +4560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\SG\\Project\\.NET Web\\.NET Web API\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\gersa\\Desktop\\.NET Web API\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "G:\\SG\\Project\\.NET Web\\.NET Web API\\api\\api.csproj",
+      "projectPath": "C:\\Users\\gersa\\Desktop\\.NET Web API\\api\\api.csproj",
       "packagesPath": "C:\\Users\\gersa\\.nuget\\packages\\",
-      "outputPath": "G:\\SG\\Project\\.NET Web\\.NET Web API\\api\\obj\\",
+      "outputPath": "C:\\Users\\gersa\\Desktop\\.NET Web API\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gersa\\AppData\\Roaming\\NuGet\\NuGet.Config",

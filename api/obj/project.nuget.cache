@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gga2ZuJfXMc=",
+  "dgSpecHash": "ZLJ6r/V04xg=",
   "success": true,
-  "projectFilePath": "G:\\SG\\Project\\.NET Web\\.NET Web API\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\gersa\\Desktop\\.NET Web API\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gersa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\gersa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

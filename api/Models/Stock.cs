@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using api.Dtos.Stock;
 
 namespace api.Models
 {
@@ -19,5 +20,20 @@ namespace api.Models
         public long MarketCap { get; set; }
 
         public List<Comment> Comments { get; set; } = new List<Comment>();
+
+        public StockDto ToStockDto()
+        {
+            return new StockDto
+            {
+                Id = this.Id,
+                Symbol = this.Symbol,
+                CompanyName = this.CompanyName,
+                Purchase = this.Purchase,
+                LastDiv = this.LastDiv,
+                Industry = this.Industry,
+                MarketCap = this.MarketCap,
+                CommentCount = this.Comments.Count
+            };
+        }
     }
 }
